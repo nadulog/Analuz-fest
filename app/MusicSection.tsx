@@ -6,7 +6,7 @@ const SPOTIFY_URL = "https://open.spotify.com/playlist/0gAEVrxsXgecvqvGIyL2A8?si
 
 export function MusicSection() {
   const [active, setActive] = useState(false);
-  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const timer = useRef<number | null>(null);
 
   function playEffect() {
     setActive(false);
