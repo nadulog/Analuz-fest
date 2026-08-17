@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     description: "¡Qué alegría compartir este momento con vos! Abrí mi invitación.",
     images: [
       {
-        url: "/og.png",
-        width: 1730,
-        height: 907,
+        url: "/og.jpg",
+        width: 1200,
+        height: 630,
         alt: "Ana Luz Fest, Mis XV. Qué alegría compartir este momento con vos.",
       },
     ],
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ana Luz Fest | Mis XV",
     description: "¡Qué alegría compartir este momento con vos! Abrí mi invitación.",
-    images: ["/og.png"],
+    images: ["/og.jpg"],
   },
 };
 
