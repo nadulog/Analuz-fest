@@ -56,7 +56,10 @@ export default function Home() {
             <img src="/images/ana-luz-gallery-2.jpeg" width="720" height="1600" alt="Ana Luz sentada entre formaciones rocosas" loading="lazy" />
           </figure>
           <figure className="ana-gallery__photo">
-            <img src="/images/ana-luz-gallery-3.jpeg" width="720" height="1600" alt="Ana Luz en un paisaje serrano al atardecer" loading="lazy" />
+            <img src="/images/ana-luz-gallery-3.jpeg" width="1200" height="1600" alt="Ana Luz sentada frente a las montañas iluminadas por el sol" loading="lazy" />
+          </figure>
+          <figure className="ana-gallery__photo">
+            <img src="/images/ana-luz-gallery-4.jpeg" width="1200" height="1600" alt="Ana Luz sonriendo en un paisaje de montaña" loading="lazy" />
           </figure>
         </div>
         <span className="ana-gallery__arrow" aria-hidden="true">→</span>
