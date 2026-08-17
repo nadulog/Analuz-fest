@@ -39,9 +39,6 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es">
-      <head>
-        <meta property="og:image:secure_url" content={`${siteUrl}og.jpg`} />
-      </head>
       <body>{children}</body>
     </html>
   );
