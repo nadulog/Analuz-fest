@@ -2,10 +2,12 @@ import { Countdown } from "./CountdownSection";
 import { LocationSection } from "./LocationSection";
 import { GiftSection } from "./GiftSection";
 import { MusicSection } from "./MusicSection";
+import { InvitationMusic } from "./InvitationMusic";
 
 export default function Home() {
   return (
     <main className="invitation-shell">
+      <InvitationMusic />
       <section className="hero" aria-label="Portada de Ana Luz Fest">
         <img
           className="hero__image"
@@ -50,10 +52,10 @@ export default function Home() {
         </div>
         <div className="ana-gallery__track">
           <figure className="ana-gallery__photo">
-            <img src="/images/ana-luz-gallery-1.jpeg" width="720" height="1600" alt="Ana Luz disfrutando un paisaje de montaña" loading="lazy" />
+            <img src="/images/ana-luz-gallery-2.jpeg" width="720" height="1600" alt="Ana Luz sentada entre formaciones rocosas" loading="lazy" />
           </figure>
           <figure className="ana-gallery__photo">
-            <img src="/images/ana-luz-gallery-2.jpeg" width="720" height="1600" alt="Ana Luz sentada entre formaciones rocosas" loading="lazy" />
+            <img src="/images/ana-luz-gallery-1.jpeg" width="720" height="1600" alt="Ana Luz disfrutando un paisaje de montaña" loading="lazy" />
           </figure>
           <figure className="ana-gallery__photo">
             <img src="/images/ana-luz-gallery-3.jpeg" width="1200" height="1600" alt="Ana Luz sentada frente a las montañas iluminadas por el sol" loading="lazy" />
