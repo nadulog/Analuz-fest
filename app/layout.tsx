@@ -13,6 +13,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
+    url: siteUrl,
+    siteName: "Ana Luz Fest",
     locale: "es_AR",
     title: "Ana Luz Fest | Mis XV",
     description: "¡Qué alegría compartir este momento con vos! Abrí mi invitación.",
@@ -21,6 +23,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
+        type: "image/jpeg",
         alt: "Ana Luz Fest, Mis XV. Qué alegría compartir este momento con vos.",
       },
     ],
@@ -36,6 +39,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es">
+      <head>
+        <meta property="og:image:secure_url" content={`${siteUrl}og.jpg`} />
+      </head>
       <body>{children}</body>
     </html>
   );
