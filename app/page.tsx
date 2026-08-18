@@ -38,10 +38,10 @@ export default function Home() {
       <section className="dress-code" aria-label="Código de vestimenta">
         <img
           className="section-image"
-          src="/images/ana-luz-fest-dress-code.png"
+          src="/images/ana-luz-fest-dress-code-v2.png"
           width="944"
           height="1674"
-          alt="Dress code elegante sport. Vestite cómodo y elegí calzado apto para césped."
+          alt="Dress code elegante sport con looks negros. Vestite cómodo y elegí calzado apto para césped."
           loading="lazy"
         />
       </section>
@@ -52,10 +52,7 @@ export default function Home() {
         </div>
         <div className="ana-gallery__track">
           <figure className="ana-gallery__photo">
-            <img src="/images/ana-luz-gallery-2.jpeg" width="720" height="1600" alt="Ana Luz sentada entre formaciones rocosas" loading="lazy" />
-          </figure>
-          <figure className="ana-gallery__photo">
-            <img src="/images/ana-luz-gallery-1.jpeg" width="720" height="1600" alt="Ana Luz disfrutando un paisaje de montaña" loading="lazy" />
+            <img src="/images/ana-luz-gallery-5.jpeg" width="1200" height="1600" alt="Ana Luz de pie frente a un paisaje de montaña" loading="lazy" />
           </figure>
           <figure className="ana-gallery__photo">
             <img src="/images/ana-luz-gallery-3.jpeg" width="1200" height="1600" alt="Ana Luz sentada frente a las montañas iluminadas por el sol" loading="lazy" />
