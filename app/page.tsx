@@ -11,10 +11,10 @@ export default function Home() {
       <section className="hero" aria-label="Portada de Ana Luz Fest">
         <img
           className="hero__image"
-          src="/images/ana-luz-fest-portada.png"
+          src="/images/ana-luz-fest-portada-v2.png"
           width="945"
           height="1676"
-          alt="Ana Luz en un paisaje de montaña rodeada de flores, portada de Ana Luz Fest, Mis XV, 27 de septiembre"
+          alt="Ana Luz en un paisaje de montaña rodeada de flores, portada de Ana Luz Fest, Mis XV, 26 de septiembre"
           fetchPriority="high"
         />
         <div className="hero__petals" aria-hidden="true">
